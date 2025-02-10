@@ -3,32 +3,32 @@
 This repository contains scripts to set up a **PostgreSQL** database for managing books, including titles, subtitles, authors, and publishers.
 
 ## Features
-- 📖 **Stores books information** (title, subtitle, author, publisher)
-- 🔑 **Admin and View-Only Users**
-- 🔍 **Stored Function:** Fetch books by a specific author
-- 🏷️ **View for Books with Publishers**
-- 📂 **Structured SQL Scripts for Easy Execution**
-- 🔄 **Automated Setup with a Bash Script**
+-  **Stores books information** (title, subtitle, author, publisher)
+-  **Admin and View-Only Users**
+-  **Stored Function:** Fetch books by a specific author
+-  **View for Books with Publishers**
+-  **Structured SQL Scripts for Easy Execution**
+-  **Automated Setup with a Bash Script**
 
-## Prerequisites 🛠️
+## Prerequisites 
 - **PostgreSQL** installed and running
 - **Git Bash (Windows) / Terminal (Mac/Linux)**
 - **Bash Shell** to execute scripts
 
-## Setup Instructions 🏗️
+## Setup Instructions 
 
-### **1️⃣ Clone the Repository**
+### **1️ Clone the Repository**
 ```bash
 git clone https://github.com/umeshchippa/books-database.git
 cd books-database
 ```
 
-### **2️⃣ Make the Setup Script Executable**
+### **2️ Make the Setup Script Executable**
 ```bash
 chmod +x setup_books_db.sh
 ```
 
-### **3️⃣ Run the Setup Script**
+### **3️ Run the Setup Script**
 ```bash
 ./setup_books_db.sh
 ```
@@ -37,11 +37,11 @@ This will execute all SQL scripts in order.
 
 ---
 
-## **Database Users 🔑**
+## **Database Users**
 - **Admin User:** `umesh_chippa` (Full privileges)
 - **View-Only User:** `view_user` (Read-only access)
 
-## **SQL Features 🔍**
+## **SQL Features**
 ### **Stored Function: `get_books_by_author(author_name)`**
 Retrieves books by a given author.
 ```sql
@@ -56,7 +56,7 @@ SELECT * FROM books_with_publishers;
 
 ---
 
-## **Folder Structure 📂**
+### **Folder Structure**
 ```
 books-database/
 │── setup_books_db.sh            # Bash script to automate setup
@@ -74,6 +74,6 @@ books-database/
 │── README.md                    # Documentation
 ```
 
-## **Contact 📧**
-📧 **Email:** umesh.chippa1405@gmail.com  
-🔗 **GitHub:** [umeshchippa](https://github.com/umeshchippa)
+### **Contact**
+ **Email:** umesh.chippa1405@gmail.com  
+ **GitHub:** [umeshchippa](https://github.com/ChippaUmesh)
