@@ -71,6 +71,7 @@ books-database/
 │── ExecutionResults/            # Images of Executions
 │   ├── script_output.png        # output of the script execution
 │   ├── database_output.png      # database , tables etc
+│   ├── database_function.png    # function
 │── README.md                    # Documentation
 ```
 
